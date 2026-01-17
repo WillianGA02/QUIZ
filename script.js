@@ -184,7 +184,7 @@ function JogarDenovo(){
     pontos = 0
     indice = undefined
 
-    //E iniciar a finção do Quiz novamente
+    //E iniciar a função do Quiz novamente
     iniciarQuiz()
 }
 
@@ -193,3 +193,4 @@ function JogarDenovo(){
 jogarNovamente.addEventListener('click', JogarDenovo)
 avancarPergunta.addEventListener('click', avancar)
 buttonIniciar.addEventListener('click', iniciarQuiz)
+
