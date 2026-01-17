@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+
+}
+
+#wrapper{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container1{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#container1 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#buttonIniciar{
+    border: 0;
+    background-color: green;
+    color: white;
+    padding: 15px;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#container2{
+    border-radius: 100px;
+    height: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 239, 168);
+    justify-content: center;
+    width: 60%;
+    display: none;
+}
+
+.displayPontuacao{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.displayPontuacao p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+#container2 h2{
+margin-bottom: 50px;
+}
+
+#container2 ol li{
+    padding: 10px;
+    width: 200px;
+    background-color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#container2 button{
+    background-color: rgb(0, 153, 255);
+    border: 0;
+    padding: 15px;
+    border-radius: 35px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#container3{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background-color: rgb(255, 239, 168);
+    height: 500px;
+    border-radius: 100px;
+}
+
+#container3 p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#container3 button{
+    background-color: aqua;
+    border: 0;
+    padding: 15px;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.alternativa-selecionada {
+    border: 2px solid #007bff;
+    background-color: #e6f0ff;
+}
+
+
+@media(max-width: 500px){
+
+    #container2{
+        width: 80%;
+    }
+
+}
