@@ -179,6 +179,7 @@ function JogarDenovo(){
 
 
     pontuacao.innerText = '0/5'
+    pontuacaoFinal.innerText = `Você acertou 0/5 !`
 
     contador = 0
     pontos = 0
@@ -193,4 +194,5 @@ function JogarDenovo(){
 jogarNovamente.addEventListener('click', JogarDenovo)
 avancarPergunta.addEventListener('click', avancar)
 buttonIniciar.addEventListener('click', iniciarQuiz)
+
 
